@@ -7,6 +7,8 @@ Est requis:
 3. Savoir repérer les variables à remplacer
 4. Bases en Processing
 
+*Ceci a été fait pour faire communiquer une arduino avec un script python. A défaut d'avoir une Arduino sous la main, une démonstration graphique avec Processing.*
+
 ## 1. Fontionnement
 
 Ce programme n'est pas optimal (boucle infinie et sleep() avec python), mais dans le cadre d'installation à but artistique à la con, il pourrait avoir son utilité, voici comment il fonctionne.
@@ -41,10 +43,13 @@ background(0);
 Allez voir tout à la fin du fichier mail.py, remplacez 60 (= 1 minute) par la valeur voulue.
 
 ### Interfacer avec Arduino
-On pourrait faire clignoter un LED avec Arduino, en ne passant que par Python. Quelques lignes de code supplémentaires dans le fichier mail.py feront l'affaire. Une petite recherche sur votre moteur de recherche favori et vous trouverez la réponse: "arduino python", "blink led arduino with python"… 
+On pourrait faire clignoter une LED avec Arduino, en ne passant que par Python. Quelques lignes de code supplémentaires dans le fichier mail.py feront l'affaire. Une petite recherche sur votre moteur de recherche favori et vous trouverez la réponse: "arduino python", "blink led arduino with python"… 
 
 
 Sources : http://www.developpez.net/forums/d717901/autres-langages/python-zope/reseau-web/recuperer-messages-compte-gmail/
 
+https://docs.python.org/2/library/poplib.html
+
+À voir aussi, Javamail : http://shiffman.net/2007/11/13/e-mail-processing/
 
 
