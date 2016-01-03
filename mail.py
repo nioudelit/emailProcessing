@@ -17,7 +17,7 @@ while True:
 
     login= "adressemail@sfr.fr" #REMPLACER VARIABLE ICI
     code="motdepasse" #REMPLACER VARIABLE ICI
-    mServer = poplib.POP3('pop.sfr.fr')
+    mServer = poplib.POP3('pop.sfr.fr') # ICI AUSSI REMPLACER VARIABLE
 
     #Login to mail server
     mServer.user(login)
