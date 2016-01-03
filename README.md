@@ -21,5 +21,9 @@ Vous comprenez qu'au tout premier lancement, quoi qu'il arrive, le programme vou
 **graphique.pde**
 
 Une fois que le programme Python est lancé (il tournera en boucle, il s'actualise toutes les minutes, faites CTRL+C pour arreter), ouvrez le fichier Processing, "graphique.pde". Il vous faudra changer la variable "raccourci" est mettre un lien correct qui corresponde à l'organisation de vos fichiers sur votre ordinateur.
-Au premier tour de boucle du fichier mail.py, le fond sera gris. Au deuxième, si vous avez au moins un message sur votre boite, il deviendra vert. Au troisième, si vous n'avez pas de messages, le fond restera vert tant que vous n'avez pas "relevé" le changement, par le biais d'un clic de souris. Si vous voulez que le fond soit noir ou vert à chaque tour de boucle sans interaction particulière, changez la condition. 
+Au premier tour de boucle du fichier mail.py, le fond sera gris. Au deuxième, si vous avez au moins un message sur votre boite, il deviendra vert. Au troisième, si vous n'avez pas de messages, le fond restera vert tant que vous n'avez pas "relevé" le changement, par le biais d'un clic de souris. Si vous voulez que le fond soit noir ou vert à chaque tour de boucle sans interaction particulière, changez la condition.
+
+Sources : http://www.developpez.net/forums/d717901/autres-langages/python-zope/reseau-web/recuperer-messages-compte-gmail/
+
+
 
