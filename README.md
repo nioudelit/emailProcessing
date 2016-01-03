@@ -37,6 +37,9 @@ else {
 background(0);
 }```
 
+### Changer la fréquence d'actualisation
+Allez voir tout à la fin du fichier mail.py, remplacez 60 (= 1 minute) par la valeur voulue.
+
 
 Sources : http://www.developpez.net/forums/d717901/autres-langages/python-zope/reseau-web/recuperer-messages-compte-gmail/
 
