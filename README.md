@@ -2,8 +2,8 @@
 
 Est requis:
 
-1. Savoir se placer dans un dossier avec des lignes de commande
-2. Executer un script python avec la console
+1. Savoir se placer dans un dossier avec la console
+2. Savoir executer un script python avec la console
 3. Savoir repérer les variables à remplacer
 4. Bases en Processing
 
