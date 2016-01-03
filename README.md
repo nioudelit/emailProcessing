@@ -14,7 +14,7 @@ Si vous avez bien paramétré ce fichier, il s'affichera des informations relati
 
 *Je vous conseille de vous créer une nouvelle boite mail vierge, parce que ça va récupérer tous les mails que vous avez reçu. Si vous en avez 20.000, ça va prendre un peu plus de temps.*
 
-Le programme, au sein d'une boucle va compter le nombre de mails à l'interieur d'une variable, sauvegarder cette valeur dans un fichier ("nbr.txt"). Si la valeur de la variable correspond au nombre sauvegardé, pas de nouveaux messages, on écrit un magnifique "0" dans le fichier ("verif.txt"). Dans le cas contraire, si le nombre sauvegardé est différent au suivant, vous avez au moins un nouveau message. On écrit un "1" dans "verif.txt". Au prochain tour de boucle, si vous n'avez pas de nouveaux messages, un zéro remplacera le "1": tout se passera bien.
+Le programme, au sein d'une boucle va compter le nombre de mails à l'interieur d'une variable, sauvegarder cette valeur dans un fichier ("nbr.txt"). Si la valeur de la variable correspond au nombre sauvegardé, pas de nouveaux messages, on écrit un magnifique "0" dans le fichier ("verif.txt"). Dans le cas contraire, si le nombre sauvegardé est différent du suivant, vous avez au moins un nouveau message. On écrit un "1" dans "verif.txt". Au prochain tour de boucle, si vous n'avez pas de nouveaux messages, un zéro remplacera le "1": tout se passera bien.
 
 Vous comprenez qu'au tout premier lancement, quoi qu'il arrive, le programme vous dira qu'il y a des nouveaux messages (si vous avez au moins un mail reçu).
 
@@ -22,6 +22,14 @@ Vous comprenez qu'au tout premier lancement, quoi qu'il arrive, le programme vou
 
 Une fois que le programme Python est lancé (il tournera en boucle, il s'actualise toutes les minutes, faites CTRL+C pour arreter), ouvrez le fichier Processing, "graphique.pde". Il vous faudra changer la variable "raccourci" est mettre un lien correct qui corresponde à l'organisation de vos fichiers sur votre ordinateur.
 Au premier tour de boucle du fichier mail.py, le fond sera gris. Au deuxième, si vous avez au moins un message sur votre boite, il deviendra vert. Au troisième, si vous n'avez pas de messages, le fond restera vert tant que vous n'avez pas "relevé" le changement, par le biais d'un clic de souris. Si vous voulez que le fond soit noir ou vert à chaque tour de boucle sans interaction particulière, changez la condition.
+
+``` if(numero == 1){
+background(0, 255, 0);// un message !
+}
+else {
+background(0);
+}```
+
 
 Sources : http://www.developpez.net/forums/d717901/autres-langages/python-zope/reseau-web/recuperer-messages-compte-gmail/
 
