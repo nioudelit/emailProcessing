@@ -1,5 +1,12 @@
 # Vérifier avec Processing et un petit script Python si on a reçu un ou des nouveaux e-mails sur sa boi-boite.
 
+Est requis:
+
+1. Savoir se placer dans un dossier avec des lignes de commande
+2. Executer un script python avec la console
+3. Savoir repérer les variables à remplacer
+4. Bases en Processing
+
 ## 1. Fontionnement
 
 Ce programme n'est pas optimal (boucle infinie et sleep() avec python), mais dans le cadre d'installation à but artistique à la con, il pourrait avoir son utilité, voici comment il fonctionne.
@@ -24,7 +31,7 @@ Une fois que le programme Python est lancé (il tournera en boucle, il s'actuali
 Au premier tour de boucle du fichier mail.py, le fond sera gris. Au deuxième, si vous avez au moins un message sur votre boite, il deviendra vert. Au troisième, si vous n'avez pas de messages, le fond restera vert tant que vous n'avez pas "relevé" le changement, par le biais d'un clic de souris. Si vous voulez que le fond soit noir ou vert à chaque tour de boucle sans interaction particulière, changez la condition.
 
 ``` if(numero == 1){
-background(0, 255, 0);// un message !
+background(0, 255, 0);
 }
 else {
 background(0);
